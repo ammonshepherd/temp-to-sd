@@ -3,6 +3,15 @@
 This sketch takes a temperature reading every X milliseconds and stores the
 Celsius and Fahrenheit degrees on an SD card.
 
+## Physical Setup
+
+The physical setup is like this, but with a Wifi shield, or other shield with SD
+card reader, stacked on top.
+
+![temperature](temperature-tmp36.png)
+
+(image source: https://github.com/rwaldron/johnny-five/blob/master/docs/temperature-tmp36.md)
+
 ## Hardware
 
 - Arduino Uno
@@ -14,6 +23,9 @@ Celsius and Fahrenheit degrees on an SD card.
 - SD card
 - Temperature sensor
   - https://www.sparkfun.com/products/10988
+- Battery pack
+  - This set up works well with an external battery pack.
+  - https://www.adafruit.com/products/248?&main_page=product_info&products_id=248
 
 ## Code
 
